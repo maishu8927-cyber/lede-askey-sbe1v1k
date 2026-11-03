@@ -3,6 +3,8 @@ name: Build Askey SBE1V1K
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - '.config'
       - '.github/workflows/build-askey.yml'
