@@ -7,6 +7,10 @@ on:
       - '.config'
       - '.github/workflows/build-askey.yml'
 
+permissions:
+  actions: write
+  contents: write
+
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
